@@ -1,0 +1,7 @@
+__pycache__/
+.ipynb_*/
+DS_Store
+*.swp
+*.tmp
+*~
+data/
