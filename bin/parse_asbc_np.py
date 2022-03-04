@@ -20,7 +20,7 @@ logging.getLogger().setLevel("WARNING")
 if __name__ == "__main__":
     np_compounds = []    
     t2s = opencc.OpenCC('t2s.json')
-    asbc = pyASBC.Asbc5Corpus("../../pyASBC/ASBC_test")
+    asbc = pyASBC.Asbc5Corpus("../../pyASBC/data/")
     cat_mapper = lambda x: ''.join(t[0] for t in x)    
     
     with CoreNLPClient(properties="chinese",
